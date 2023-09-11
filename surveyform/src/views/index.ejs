@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Health Survey Page 1</title>
+</head>
+<body>
+    <header>
+        <h1>Health Survey</h1><br> 
+    </header>
+    <form action="/page1" method="post">
+        <div id='page1'>
+            <label>First Name</label>
+            <input  type="text" id="fn" name="firstname" placeholder='Enter First name' />
+            
+            <label>Last Name</label>
+            <input type="text" id="ln" name="lastname" placeholder='Enter Last name' />
+            
+            <label>Phone</label>
+            <input type="number" id="phone" name="phone" placeholder='Enter Phone number'/>
+            
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder='Enter Email'/>
+            
+            <label>Gender</label>
+            <select id="gender" name="gender">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Prefer not to say</option>
+            </select>
+            
+            <label>Date of Birth</label>
+            <input id="dob" name="date" type="date"/>
+            
+        <a href="../views/page2.ejs"><button>Next</button></a>
+        </div>
+    </form>
+
+<script>
+
+// let update=()=>{
+//     let fn = document.getElementById('fn').value;
+//     let ln = document.getElementById('ln').value;
+//     let phone = document.getElementById('phone').value;
+//     let email = document.getElementById('email').value;
+//     let gender = document.getElementById('gender').value;
+//     let dob = document.getElementById('dob').value;
+
+//     sessionStorage.setItem('fn',fn);
+//     sessionStorage.setItem('ln',ln);
+//     sessionStorage.setItem('phone',phone);
+//     sessionStorage.setItem('email',email);
+//     sessionStorage.setItem('gender',gender);
+//     sessionStorage.setItem('dob',dob);
+//     }
+    
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; 
+  color-scheme: light dark;
+}
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+
+  
+  button {
+    border-radius: 8px;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #000;
+  }
+ 
+
+  #page1,#page2,#page3{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  label{
+    padding: 20px;
+  }
+  
+  input,select{
+    width: 20%;
+    height: 40px;
+    text-align: left;
+  }
+  
+  button{
+    margin: 30px auto;
+    background-color: #fff;
+    
+  }
+
+  .butt{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+  }

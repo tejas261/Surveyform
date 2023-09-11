@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Health Survey Page 3</title>
+</head>
+<body>
+    <h1>Medical details</h1>
+    <form action="/page3" method="post">
+        <div id='page3'>
+            <label>Do you have any of the following?</label>
+            <select id="problem" name="problem">
+                <option value="Diabetis Type 1">Diabetis Type 1</option>
+                <option value="Diabetis Type 2">Diabetis Type 2</option>
+                <option value="High BP">High BP</option>
+                <option value="None">None</option>
+            </select>
+            
+            <label>Are u taking any medications for it if any?</label>
+            <select id="medications" name="medications">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+            
+            <label>Do you have any food allergies?</label>
+            <select id="allergies" name="allergies">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+    
+            <label>If yes please describe</label>
+            <input id="describe" type="text" name="describe"/>
+            
+            <label>Height</label>
+            <input id="height" type="number" placeholder='Height' name="height"/>
+    
+            <label>Weight</label>
+            <input id="weight" type="number" placeholder='Weight' name="weight"/>
+
+            <div class="butt">
+                <button>Submit</button>
+            </div>
+        
+        </div>
+
+        
+        <div>
+
+        
+
+        </div>
+        
+    </form>
+
+    <script>
+
+        // let update2=()=>{
+        //     let problem = document.getElementById('problem').value;
+        //     let medications = document.getElementById('medications').value;
+        //     let allergies = document.getElementById('allergies').value;
+        //     let describe = document.getElementById('describe').value;
+        //     let height = document.getElementById('height').value;
+        //     let weight = document.getElementById('weight').value;
+            
+        
+        //     sessionStorage.setItem('problem',problem);
+        //     sessionStorage.setItem('medications',medications);
+        //     sessionStorage.setItem('allergies',allergies);
+        //     sessionStorage.setItem('describe',describe);
+        //     sessionStorage.setItem('height',height);
+        //     sessionStorage.setItem('weight',weight);
+        //     }
+            
+            
+        </script>    
+</body>
+</html>
